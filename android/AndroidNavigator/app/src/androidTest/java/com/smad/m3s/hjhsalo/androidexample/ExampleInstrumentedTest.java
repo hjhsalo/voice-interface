@@ -1,4 +1,4 @@
-package com.appstacle.m3s.jmouruja.androidnavigator;
+package com.smad.m3s.hjhsalo.androidexample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.appstacle.m3s.jmouruja.androidnavigator", appContext.getPackageName());
+        assertEquals("com.smad.m3s.hjhsalo.androidexample", appContext.getPackageName());
     }
 }

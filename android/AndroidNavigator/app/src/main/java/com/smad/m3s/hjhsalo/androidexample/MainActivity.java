@@ -1,4 +1,4 @@
-package com.appstacle.m3s.jmouruja.androidnavigator;
+package com.smad.m3s.hjhsalo.androidexample;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -20,7 +20,6 @@ import com.amazonaws.mobileconnectors.iot.AWSIotMqttManager;
 import com.amazonaws.mobileconnectors.iot.AWSIotMqttNewMessageCallback;
 import com.amazonaws.mobileconnectors.iot.AWSIotMqttQos;
 
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.CountDownLatch;
@@ -71,8 +70,8 @@ public class MainActivity extends AppCompatActivity  {
         // MQTT client IDs are required to be unique per AWS IoT account.
         // This UUID is "practically unique" but does not _guarantee_
         // uniqueness.
-        //clientId = UUID.randomUUID().toString();
-        clientId = "";
+        clientId = UUID.randomUUID().toString();
+        // clientId = "";
         txtSubscribe.setText("topic/loc1");
         tvClientId.setText(clientId);
         tvClientId.setText("#######-####-####-####-############");

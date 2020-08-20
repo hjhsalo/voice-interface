@@ -1,6 +1,5 @@
-package com.appstacle.m3s.jmouruja.androidnavigator;
+package com.smad.m3s.hjhsalo.androidexample;
 import android.content.Context;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Location;
@@ -14,7 +13,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.Manifest;
-import com.google.android.gms.location.FusedLocationProviderClient;
+
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;

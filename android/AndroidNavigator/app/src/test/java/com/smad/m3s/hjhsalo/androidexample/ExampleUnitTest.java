@@ -1,4 +1,4 @@
-package com.appstacle.m3s.jmouruja.androidnavigator;
+package com.smad.m3s.hjhsalo.androidexample;
 
 import org.junit.Test;
 

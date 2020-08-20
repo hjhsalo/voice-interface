@@ -1,4 +1,4 @@
-package com.appstacle.m3s.jmouruja.androidnavigator;
+package com.smad.m3s.hjhsalo.androidexample;
 //https://www.wingsquare.com/blog/drawing-driving-route-directions-between-two-locations-using-google-directions-in-google-map-android
 
 import com.google.android.gms.maps.model.LatLng;

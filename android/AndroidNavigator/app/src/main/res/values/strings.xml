@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidNavigator</string>
+    <string name="app_name">SMADAndroidExample</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_socket">SocketActivity</string>
     <string name="title_activity_main">MainActivity</string>

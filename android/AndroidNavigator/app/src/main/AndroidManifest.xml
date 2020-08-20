@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appstacle.m3s.jmouruja.androidnavigator">
+    package="com.smad.m3s.hjhsalo.androidexample">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -23,7 +23,7 @@
         android:theme="@style/AppTheme">
         <service android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService" android:enabled="true" />
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
-        <activity android:name=".MainActivity"
+        <activity android:name="com.smad.m3s.hjhsalo.androidexample.MainActivity"
             android:label="@string/title_activity_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,7 +48,7 @@
         <meta-data android:name="firebase_crash_collection_enabled" android:value="false" />
         <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true" />
         <activity
-            android:name=".MapsActivity"
+            android:name="com.smad.m3s.hjhsalo.androidexample.MapsActivity"
             android:label="@string/title_activity_maps" />
 
 
